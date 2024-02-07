@@ -1,1 +1,1 @@
-# End to End ML project on Diamond price prediction
+## End to End ML project Regression with a Tabular Gemstone Price Dataset
