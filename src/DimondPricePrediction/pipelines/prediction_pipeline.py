@@ -5,7 +5,7 @@ from src.DimondPricePrediction.exception import customexception
 from src.DimondPricePrediction.logger import logging
 from src.DimondPricePrediction.utils.utils import load_object
 
-
+## basically here we are performing single row predictions for our data i.e pass or data and obtain in a dataframe 
 class PredictPipeline:
     def __init__(self):
         pass
