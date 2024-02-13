@@ -1,0 +1,32 @@
+[
+    {
+        "Unnamed: 0": 14869,
+        "carat": 0.54,
+        "cut": "Ideal",
+        "color": "F",
+        "clarity": "VS2",
+        "depth": 61.3,
+        "table": 57,
+        "x": 5.28,
+        "y": 5.25,
+        "z": 3.23,
+        "price": 1572
+    }
+]
+
+
+
+local     ---->    github       ----> github Actions -----> Docker ----> AWS ECR            -----------------> AWS App runner-----------deploy(endpoint url)
+(dev env)     (central repo)          (server/system)                      (repo/collect docker img)            (serverless service)
+
+       continuous integration                         continuous delivery                       continuous deployment
+
+|----------------CI---------------------------------|______________CD_______________________|----------------------CD---------------------------------------|
+
+
+
+
+other tools for ci/cd inplace of github actions are : jenkins, circlie ci, traverse ci
+
+
+dev ops and ML ops pipelines...
