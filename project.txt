@@ -29,4 +29,8 @@ local     ---->    github       ----> github Actions -----> Docker ----> AWS ECR
 other tools for ci/cd inplace of github actions are : jenkins, circlie ci, traverse ci
 
 
-dev ops and ML ops pipelines...
+
+
+
+
+
