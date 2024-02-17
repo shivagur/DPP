@@ -48,6 +48,6 @@ class TrainingPipeline:
             raise customexception(e,sys)
 
 
-obj = TrainingPipeline()
-
-obj.start_trainig()
+if __name__ == "__main__":
+    training_pipeline = TrainingPipeline()
+    training_pipeline.start_trainig()

@@ -5,5 +5,7 @@ matplotlib
 seaborn
 Flask
 
-
+## this version is more stable
+mlflow==2.2.2
+dvc 
 -e .

@@ -138,3 +138,7 @@ test_path = r'C:\Users\hp\Desktop\Code_files\DPP\artifacts\test.csv'
 
 # Call the initialize_data_transformation method
 train_arr, test_arr = obj1.initialize_data_transformation(train_path, test_path)
+
+np.save('train_arr.npy', train_arr)
+np.save('test_arr.npy', test_arr)
+

@@ -29,7 +29,19 @@ local     ---->    github       ----> github Actions -----> Docker ----> AWS ECR
 other tools for ci/cd inplace of github actions are : jenkins, circlie ci, traverse ci
 
 
+dev ops and ML ops pipelines...
 
+
+MLFLOW_TRACKING_URI=https://dagshub.com/shivasaigurrapu/DPP.mlflow \
+MLFLOW_TRACKING_USERNAME=shivasaigurrapu \
+MLFLOW_TRACKING_PASSWORD=your_token  \
+python script.py
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/shivasaigurrapu/DPP.mlflow \
+MLFLOW_TRACKING_USERNAME=shivasaigurrapu \
+MLFLOW_TRACKING_PASSWORD=99dc10d96d5f9b8fd410e4b6fb5eb466b54cd301  \
+python script.py
 
 
 

@@ -1,7 +1,7 @@
 import os
 import sys
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from urllib.parse import urlparse
+from urllib.parse import urlparse##
 import mlflow
 import mlflow.sklearn
 import numpy as np
@@ -31,7 +31,7 @@ class ModelEvaluation:
 
         
 
-            mlflow.set_registry_uri("https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/shivasaigurrapu/DPP.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
@@ -69,3 +69,15 @@ class ModelEvaluation:
             
         except Exception as e:
             raise e
+        
+
+
+# Example usage:
+if __name__ == "__main__":
+    # Example data arrays
+    train_array = np.load(r"src\DimondPricePrediction\components\train_arr.npy")
+    test_array = np.load(r"src\DimondPricePrediction\components\train_arr.npy")
+
+    # Initialize and run model evaluation
+    model_evaluator = ModelEvaluation()
+    model_evaluator.initiate_model_evaluation(train_array, test_array)
